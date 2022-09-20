@@ -17,8 +17,25 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
           appBar: AppBar(
-        title: const Text("Catalog"),
-      )),
+            title: const Text("Catalog"),
+          ),
+          body: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              children: [
+                TextFormField(
+                  decoration: const InputDecoration(
+                    hintText: "email",
+                  ),
+                ),
+                TextFormField(
+                  decoration: const InputDecoration(
+                    hintText: "Password",
+                  ),
+                ),
+              ],
+            ),
+          )),
     );
   }
 }
