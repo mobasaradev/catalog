@@ -1,3 +1,4 @@
+import 'package:catalog/pages/signin.dart';
 import 'package:flutter/material.dart';
 
 class SignUp extends StatelessWidget {
@@ -102,7 +103,7 @@ class SignUp extends StatelessWidget {
                       onPressed: () {
                         Navigator.pushAndRemoveUntil(
                             context,
-                            MaterialPageRoute(builder: (context) => SignUp()),
+                            MaterialPageRoute(builder: (context) => SignIn()),
                             (route) => false);
                       },
                       child: const Text("Sign in here")),

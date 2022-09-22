@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FormPage extends StatelessWidget {
-  FormPage({super.key});
+class SignIn extends StatelessWidget {
+  SignIn({super.key});
 
   final _formKey = GlobalKey<FormState>();
 
