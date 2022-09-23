@@ -112,21 +112,30 @@ class HomePages extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Row(
-                    children: const [
-                      Icon(Icons.thumb_up),
-                      Text("Like"),
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.thumb_up),
+                      ),
+                      const Text("Like"),
                     ],
                   ),
                   Row(
-                    children: const [
-                      Icon(Icons.comment),
-                      Text("Comments"),
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.comment),
+                      ),
+                      const Text("Comments"),
                     ],
                   ),
                   Row(
-                    children: const [
-                      Icon(Icons.share),
-                      Text("Share"),
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.share),
+                      ),
+                      const Text("Share"),
                     ],
                   ),
                 ],
